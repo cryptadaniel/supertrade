@@ -7,7 +7,9 @@ The script is free to use but I am not responsible for any gains or losses it in
 The script requires python3 to run and following modules are needed:
 
 pip3 install pandas
+
 pip3 install pandas-ta
+
 pip3 install ccxt
 
 type 'python3 supertrade.py -h' to get usage description similar to below:
