@@ -52,7 +52,7 @@ def run_bot():
     short_term_uptrend = crypta.check_short_uptrend(df, -1)
 
     if in_position:
-        if not dry_run and short_term_uptrend and long_term_uptrend < 0:   
+        if not dry_run and short_term_uptrend < 0:   
             if exchange.has['createMarketOrder']:
                  order = exchange.create_market_sell_order(pair, qty)
                  in_position = False
