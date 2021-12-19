@@ -24,5 +24,5 @@ usage: ./supertrade.py [-h|-i|-o|-r|-t|-x|-v] [--help|--in-position|--out-of-pos
         --dry-run: run script without actually entering or exiting positions
         -v, --verbose 
 
-The idea of this script is inpired by an youbuter channel 'Trade Prime'. Check more details at https://www.youtube.com/watch?v=u1b5v2Is8iY&t=363s
+The idea of this script is inspired by the idea by an youtuber channel 'Trade Prime'. Check more details at https://www.youtube.com/watch?v=u1b5v2Is8iY&t=363s
 
