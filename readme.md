@@ -10,6 +10,8 @@ pip3 install pandas
 pip3 install pandas-ta
 pip3 install ccxt
 
+The 'config.py' file contains exchange API key/secret you want to update with your own 
+
 type 'python3 supertrade.py -h' to get usage description similar to below:
 
 usage: ./supertrade.py [-h|-i|-o|-r|-t|-x|-v] [--help|--in-position|--out-of-position|--timeframe=|--run-every=|--exchange] COIN QUANTITY
